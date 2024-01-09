@@ -172,6 +172,10 @@ h1, h2, h3, h4, h5, h6,p{
     margin-top: 15px;
 }
 
+.midnight button:hover{
+    color: #F00;
+}
+
 /* welcome section end */
 
 /* details section start */
@@ -347,7 +351,7 @@ h1, h2, h3, h4, h5, h6,p{
     height: 200px;
     position: relative;
     top: 94px;
-    left: 166px;
+    left: 110px;
 }
 
 .fig3{
@@ -412,7 +416,7 @@ h1, h2, h3, h4, h5, h6,p{
     opacity: 0;
     transition: .5s all ease-in-out;
     border-radius: 15px;
-    border: 2px solid #070211;
+    border: 2px solid #F00;
 }
 
 .gallery:hover::after{
@@ -577,5 +581,9 @@ h1, h2, h3, h4, h5, h6,p{
     font-weight: 400;
     background: transparent;
     border: 0px;
+}
+
+.ref button:hover{
+    color: #f00;
 }
 /* footer style end */
