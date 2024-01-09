@@ -321,15 +321,40 @@ h1, h2, h3, h4, h5, h6,p{
     line-height: 1.4em;
 }
 
-.images{
-    background: url("../images/Rectangle\ 2.png") center bottom no-repeat;
-    display: flex;
-    justify-content: space-between;
+.sales-img{
+    margin-top: 80px;
 }
 
-.images .fig1{
-    width: 50%;
+.sales-img .images{
+    display: flex;
+    justify-content: space-between;
+    background: url("../images/Rectangle\ 2.png") center bottom no-repeat;
 }
+
+.images{
+    position: relative;
+}
+
+.fig1{
+    width: 500px;
+    height: 500px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.fig2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 94px;
+    left: 166px;
+}
+
+.fig3{
+    width: 30%;
+    margin-bottom: 229px;
+}
+
 /* functional style end */
 
 /* portfolio style start */
